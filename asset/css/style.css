@@ -65,7 +65,24 @@ main{
 /* inizio del footer */
 
 footer{
+    display: flex;
     background-color: gray;
+    justify-content: space-between;
+}
+
+.card-footer{
+    color: white;
+    padding: 10px 10px;
+}
+
+.item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big{
+    font-size: 25px;
 }
 
 .flex{
@@ -73,10 +90,21 @@ footer{
     justify-content: space-between;
 }
 
-.blue{
-    background-color: blue;
+.green{
+    color: green;
+}
+.red{
+    color: red;
 }
 
-.red{
-    background-color: red;
+.end{
+    background-color: rgb(70, 70, 70);
+}
+
+.white{
+    color: white;
+}
+
+.pad-top-20{
+    padding-top: 20px;
 }
