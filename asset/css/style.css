@@ -47,8 +47,13 @@ main{
     background-image: url('../img/female1.png');
     width: calc(100%/8);
     height: calc(100%/5);
-    margin: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: 1px; */
     position: relative;
+    border: 1px solid rgb(3, 3, 3);
+    margin: 2px 0;
 }
 
 .nome-studente{
